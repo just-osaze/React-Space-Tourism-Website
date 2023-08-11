@@ -2,6 +2,7 @@
   "destinations": [
     {
       "name": "Moon",
+      "image": "require(../assets/crew/image-douglas-hurley.webp)",
       "images": {
         "png": "./assets/destination/image-moon.png",
         "webp": "./assets/destination/image-moon.webp"
