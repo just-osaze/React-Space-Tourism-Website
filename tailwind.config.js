@@ -20,6 +20,12 @@ module.exports = {
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
+    colors: {
+      skyBlue: '#D0D6F9',
+      darkBlue: '#0B0D17',
+      gray: '#D9D9D9', 
+      white: '#FFFFFF',
+    },
     backgroundImage: {
       'home-mobile': "url('./assets/home/background-home-mobile.jpg')",
       'home-tablet': "url('./assets/home/background-home-tablet.jpg')",

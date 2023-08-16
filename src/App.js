@@ -1,18 +1,20 @@
 //import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Destination from "./components/Destination";
-import Navbar from "./components/appbar/Navbar";
+import Home from "./components/Home";
+import Destination from "../src/components/destination/Destination";
+
+
 
 
 function App() {
   return (
     <div className="bg-destination-mobile bg-cover bg-fixed bg-no-repeat w-full h-screen">
       <Routes>
-        <Route path='/' element={<Navbar />} />
-        <Route path='destination' element={<Destination />} />
-
-        {/* <Route path='crew' element={<Crew />}></Route> */}
+        <Route path='/' element={<Home />} />
+        <Route path='destination' element={<Destination />}>
+          
+        </Route>
         
       </Routes>
     </div>

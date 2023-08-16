@@ -2,7 +2,6 @@
   "destinations": [
     {
       "name": "Moon",
-      "image": "require(../assets/crew/image-douglas-hurley.webp)",
       "images": {
         "png": "./assets/destination/image-moon.png",
         "webp": "./assets/destination/image-moon.webp"
@@ -73,7 +72,7 @@
     {
       "name": "Anousheh Ansari",
       "images": {
-        "png": "./assets/crew/image-anousheh-ansari.png",
+        "png": "../../assets/destination/image-mars.webp",
         "webp": "./assets/crew/image-anousheh-ansari.webp"
       },
       "role": "Flight Engineer",
